@@ -1,12 +1,19 @@
-import React from 'react';
+import React, {Component}  from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Quiz from './quiz';
+import Footnote from './footnote'
+import Foot from './foot'
 import reportWebVitals from './reportWebVitals';
-
+// React App
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode> 
+    <Footnote/>
+    <App/>
+    <Quiz/>
+    <Foot/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
